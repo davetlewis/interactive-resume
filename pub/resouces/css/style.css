@@ -315,13 +315,13 @@ header {
 }
 
 .skill-box div:first-child {
-    background-color: #fcfcfc;
+    background-color: #dbdbdb;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
 .skill-box div:last-child {
-    text-align: center;
+    background-color: #f2f2f2;
     border: 0;
 }
 
@@ -336,6 +336,16 @@ header {
 
 .skill-box ul li {
     padding: 5px 0;
+}
+
+.skill-list li { 
+    list-style: none;
+}
+
+.skill-list ul li { 
+    list-style:square;
+    list-style-position: inside;
+    margin-left: 10px;
 }
 
 /*-----------------------------------*/
