@@ -96,8 +96,8 @@ footer h2 {
 
 .long-copy {
     line-height: 145%;
-    width: 60%;
-    margin-left: 20%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 /* ------ Buttons ------ */
@@ -243,12 +243,11 @@ header {
     box-shadow: 0 2px 2px #efefef;
 }
 
-/*
-.sticky .main-nav {
-    margin-top: 30px;
-}
-*/
 
+.sticky .main-nav {
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 1px 0;
@@ -266,6 +265,8 @@ header {
 .exp-job-title,
 .exp-years{
     font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .exp-company,
@@ -277,6 +278,18 @@ header {
 .exp-location {
     display: flex;
     justify-content: flex-end;
+}
+
+.exp-entry ul {
+    margin-left: 30px;
+    line-height: 145%;
+    width: 85%;
+
+}
+
+.exp-entry li {
+    padding-bottom: 10px;
+    list-style-type: square;
 }
 
 /*-----------------------------------*/
