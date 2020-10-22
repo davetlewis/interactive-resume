@@ -355,7 +355,7 @@ header {
 /* Education */
 /*-----------------------------------*/
 
-.section-education {
+.section-samples {
     background-color: #f4f4f4;
 }
 .edu-degree,
@@ -374,6 +374,9 @@ header {
     font-size: 80%;
 }
 
+.section-samples .long-copy {
+    padding-top: 10px;
+}
 /*-----------------------------------*/
 /* Footer */
 /*-----------------------------------*/
