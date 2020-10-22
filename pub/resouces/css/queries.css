@@ -1,3 +1,40 @@
+/* Big tablet to 1200px (widths smaller than 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;   
+    }
+    
+    .row { padding: 0 2%; }
+}
+
+/* Display for small tablet to big tablet: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .exp-entry ul {
+        margin-left: 30px;
+        line-height: 115%;
+        width: 85%;
+
+    }
+
+    .exp-entry li {
+        font-size: 80%;
+        padding-bottom: 5px;
+    }
+    .skill-list { 
+        font-size: 80%;
+    }
+    
+}
+
 /* Display for small phones to small tablets (481px to 767px) */
 @media only screen and (max-width: 767px) {
     body { font-size: 16px; }
@@ -42,9 +79,71 @@
     h2 { font-size: 150%; }
     
     .long-copy { 
-        width: 100%;
-        margin-left: 0%;
+        width: 98%;
+        margin-left: 2%;
     }
     
     .app-screen { width: 40%; }
+    
+    .section-experience div {display:block;}
+    
+    .exp-job-title {
+        font-weight: 400;
+        margin-top: 5%;
+    }
+    
+    .exp-company {
+        font-weight: 300;
+        font-size: 100%;
+    }
+    
+    .exp-years{
+        font-weight: 300;
+        font-size: 80%;
+    }
+
+    .exp-location {
+        font-size: 80%;
+    }
+
+    .exp-years,
+    .exp-location {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .exp-entry ul {
+        margin-left: 30px;
+        line-height: 145%;
+        width: 85%;
+
+    }
+
+    .exp-entry li {
+        padding-bottom: 10px;
+        list-style-type: square;
+    }
+    
+    .section-education div { display: block;}
+    
+    .edu-degree {
+        font-weight: 400;
+    }
+    .edu-years { font-weight: 300;}
+
+    .edu-years,
+    .edu-location {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .edu-school { font-size: 100%; }
+    .edu-years,
+    .edu-location {
+        font-size: 80%;
+    }
+
+/* Display for small phones iPhone 4/5: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0;}
 }
