@@ -262,6 +262,9 @@ header {
 /* Experience Section                */
 /*-----------------------------------*/
 
+.section-experience {
+    background-color: #f4f4f4;
+}
 .exp-job-title,
 .exp-years{
     font-weight: 400;
@@ -352,6 +355,9 @@ header {
 /* Education */
 /*-----------------------------------*/
 
+.section-education {
+    background-color: #f4f4f4;
+}
 .edu-degree,
 .edu-years {
     font-weight: 400;
